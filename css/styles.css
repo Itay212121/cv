@@ -1,10 +1,32 @@
 body{
+  position: relative;
+  bottom: 50px;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
   color: #40514E;
 
 }
+
+.pong{
+  position: relative;
+  left: -1100px;
+  bottom: -100px;
+  color: #66BFBF;
+  -webkit-border-radius: 8px;
+  font-size: 40px;
+   font-weight: 100
+font-family: 'Montserrat', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+
+
+.pong:hover{
+  color: #40514E;
+}
+
 
 h1{
   font-size: 8.625rem;
